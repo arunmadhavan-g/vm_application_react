@@ -1,5 +1,5 @@
 import React from "react"
-import {FormControlLabel, FormLabel, Radio, RadioGroup} from "@material-ui/core";
+import {FormLabel} from "@material-ui/core";
 
 const FormComponent = ({label, children}) =>
     <div className="formComponent">

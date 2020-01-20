@@ -84,9 +84,9 @@ header {
 }
 
 .formComponent > legend {
-    margin: 1em 1em 0 1em;
+    margin: 1em 2em 0 1em;
     padding: 0 1em;
-    width: 10em;
+    width: 20em;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -99,4 +99,27 @@ header {
 
 label + .MuiInput-formControl {
     width: 20em;
+}
+
+.alumniContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted lightgrey;
+}
+
+.alumniContainer, .hide {
+    display: none;
+}
+
+.MuiSelect-select.MuiSelect-select {
+    width: 20em;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 12em;
+    margin: 2em 17em;
 }
