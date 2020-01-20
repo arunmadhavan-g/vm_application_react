@@ -106,9 +106,14 @@ label + .MuiInput-formControl {
     flex-direction: column;
     border: 1px dotted lightgrey;
 }
+.alumniContainer > h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2em;
+}
 
-.alumniContainer, .hide {
-    display: none;
+.hide {
+    display: none !important;
 }
 
 .MuiSelect-select.MuiSelect-select {
@@ -124,6 +129,6 @@ label + .MuiInput-formControl {
     margin: 2em 17em;
 }
 
-.MuiFormGroup-root{
+.MuiFormGroup-root {
     flex-direction: row !important;
 }

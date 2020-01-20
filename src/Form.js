@@ -29,7 +29,7 @@ const Form = () => <div className="formContainer">
         </RadioGroup>
     </FormComponent>
 
-    <AlumniForm show={false}/>
+    <AlumniForm show={true}/>
 
     <FormComponent label="Does a child have a sibling studying in the school?">
         <RadioGroup aria-label="sibling" name="sibling">
@@ -38,7 +38,7 @@ const Form = () => <div className="formContainer">
         </RadioGroup>
     </FormComponent>
 
-    <SiblingForm show={false}/>
+    <SiblingForm show={true}/>
 
     <div className="buttonContainer">
         <Button variant="contained">Cancel</Button>
