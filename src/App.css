@@ -123,3 +123,7 @@ label + .MuiInput-formControl {
     width: 12em;
     margin: 2em 17em;
 }
+
+.MuiFormGroup-root{
+    flex-direction: row !important;
+}
