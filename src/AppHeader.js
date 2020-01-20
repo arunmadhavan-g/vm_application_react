@@ -3,7 +3,8 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
-import logo from './Logo-vme.jpg';
+// import logo from './Logo-vme.svg';
+import {ReactComponent as Logo} from './Logo-vme.svg';
 import {Link} from "react-router-dom";
 
 const AppHeader = () =>
@@ -11,7 +12,7 @@ const AppHeader = () =>
         <Toolbar>
             <IconButton edge="start" color="inherit" aria-label="menu">
                 <Link to="/">
-                    <img src={logo} alt="logo" className="logo"/>
+                    <Logo />
                 </Link>
             </IconButton>
             <Typography variant="h3">
